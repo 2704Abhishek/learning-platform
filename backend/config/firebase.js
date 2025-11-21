@@ -1,7 +1,7 @@
 const admin = require('firebase-admin');
 
 // Replace with your Firebase service account key
-const serviceAccount = require('./learning-platform-13df1-firebase-adminsdk-fbsvc-c2b9662e73.json');
+const serviceAccount = require('C:/Users/Acer/Downloads/learning-platform-13df1-firebase-adminsdk-fbsvc-d677349659.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
